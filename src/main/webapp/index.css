@@ -1,0 +1,307 @@
+.center 
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 400px;
+    margin-bottom: -100px;
+}
+
+.center2, .centeredData
+{
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+#centeredData
+{
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+.banner 
+{
+    background-color: #5A4FCF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-links 
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button{
+	width: 1px;
+}
+
+.right-links h3 
+{
+    margin-left: 20px; 
+}
+
+body 
+{
+    margin: 0;
+}
+
+#top, #right 
+{
+    font-size: 12pt;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+}
+
+#stockSymbol{
+	border: 2px solid #5A4FCF;
+	width: 300px; 
+	height: 30px;
+	border-radius: 4px;
+}
+
+#search{
+	 border-radius: 5px;
+	 width: 40px;
+}
+
+#search-bar 
+{
+    padding: 30px;
+    width: 6000px; 
+    border: none;
+    outline: 2px solid #5A4FCF;
+    border-radius: 5px;
+    font-size:15px;
+}
+
+
+.quantity-container 
+{
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.quantity-container label 
+{
+	margin-left: 24px;
+	font-family: sans-serif;
+}
+
+.quantity-container input 
+{
+	max-width: 1000px;
+	width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buy-button 
+{
+	margin-left: 24px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block; 
+    width: 20%; 
+    margin-top: 10px; 
+}
+
+.upper-data 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    padding: 0 20px;
+}
+
+.green 
+{
+    color: green;
+}
+
+.red 
+{
+    color: red;
+}
+
+.date-time 
+{
+    font-size: 17px;  
+    
+}
+
+.right p 
+{
+    margin: 0 0 5px 0; 
+    line-height: 1.2; 
+}
+
+.left p
+{
+	margin: 0 0 5px 0; 
+    line-height: 1.2;
+}
+
+.trade-form div 
+{
+    margin-bottom: 10px; 
+}
+
+.trade-form label 
+{
+    margin-right: 5px;
+}
+
+.trade-form button 
+{
+    padding: 5px 10px; 
+}
+
+button 
+{
+	font-size:15px;
+    padding: 10px;
+    border: none;
+    background-color: #5A4FCF;
+}
+
+.left-aligned 
+{
+    text-align: left !important;  
+    margin-left: 20pt;
+}
+
+.right
+{
+	font-size: 20pt;
+	font-family: sans-serif;
+	color: green;
+	text-align: right !important;  
+	margin-right: 50pt;
+}
+
+#marketStatus 
+{
+    text-align: center;
+    font-size: 16px;
+    color: black; 
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+
+.search-container 
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#search-button
+{
+	padding: 12px;
+    background-color: #5A4FCF; 
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 45px;
+    border-radius: 5px;
+}
+
+.fa-search 
+{
+    color: white; 
+}
+
+.right-links a 
+{
+    color: white; 
+    text-decoration: none; 
+}
+
+.left-links a 
+{
+    color: white; 
+    text-decoration: none; 
+}
+
+#centeredData p 
+{
+    text-align: center;
+}
+
+#topData
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 15pt;
+}
+
+.grey-line 
+{
+    height: 2px; 
+    width: 80%; 
+    background-color: lightgrey;
+    margin: 20px auto;
+}
+
+#ticker
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 17pt;
+}
+
+#name
+{
+	text-align: center;
+	font-size: 14.5pt;
+	font-family: sans-serif;
+}
+
+#exchange
+{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#summary
+{
+	text-align: center;
+    font-size: 12pt;
+}
+
+
+#companyInfoTitle 
+{
+    text-align: center;
+    font-size: 15pt;
+}
+
+
+#leftAlignedData 
+{
+	font-family: sans-serif;
+    text-align: left;
+    margin-top: 20px; 
+}
+
+#leftAlignedData p 
+{
+	font-family: sans-serif;
+    margin-left: 20px; 
+}
+

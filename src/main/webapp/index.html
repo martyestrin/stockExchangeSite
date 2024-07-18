@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">	<!--Google Searched how to Include Font Awesome since it was refferenced in assignment insturctions https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML-->
+</head>
+<body>
+    <div class="banner">
+         <div class = "left-links">
+         	<a href="index.html"><h3 id="top">JoesStocks</h3></a>
+         </div>
+        <div class="right-links">
+            <a href="index.html"><h3 id="right">Home / Search</h3></a>
+            <a href="login.html"><h3 id="right">Login / Sign Up</h3></a>
+        </div>
+    </div>
+   <h1 class="center" id="searchTitle">SEARCH STOCKS</h1>
+	<div class="search-container" id="searchContainer">
+	    <form onsubmit="event.preventDefault(); fetchStockData();">
+	        <input type="text" id="stockSymbol" placeholder="Search by ticker...">
+	        <button type="submit" id="search"><i class="fa fa-search"></i></button> <!-- Asked ChatGPT How to integrate the search logo from font-awesome and style it https://chat.openai.com/c/02fb9980-8fb8-402f-b20b-68ccc75cb7e9-->
+	    </form>
+	</div>
+    <div id="stockData" style="margin-top:20px;">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

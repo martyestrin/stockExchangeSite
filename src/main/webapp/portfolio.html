@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Like on index.html, I googled the link to get font awesome https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML -->
+</head>
+<body>
+    <div class="banner">
+        <div class="left-links">
+            <a href="index.html"><h3 id="top">JoesStocks</h3></a>
+        </div>
+        <div class="right-links">
+            <a href="index.html"><h3 id="right">Home / Search</h3></a>
+            <a id="logoutLink"><h3 id="right">Logout</h3></a>
+        </div>
+    </div>
+ 
+        <div class="statistics">
+            <h1 class="portfolio">My Portfolio</h1>
+            <!-- ChatGPT'd Integrate Cash Balance and Account Value into my HTML when these values are loaded from a JS function https://chat.openai.com/c/1b61d6bc-f95f-4adb-b7be-35883a6fdf80-->
+            <h2 class="stats">Cash Balance: <span id="cashBalance">Loading...</span></h2>
+            <h2 class="stats">Total Account Value: <span id="totalAccountValue">Loading...</span></h2>
+        </div>
+        <div class = "container">
+        <div class="portfolio-boxes"></div>
+        </div>
+
+    <script src="portfolio.js"></script> 
+</body>
+</html>

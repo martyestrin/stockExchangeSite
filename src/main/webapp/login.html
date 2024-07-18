@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="login.css"/>
+	<script src="login.js"></script>
+    <title>Login Page</title>  
+</head>
+<body>
+    <div class="banner">
+        <div class="left-links">
+            <a href="index.html"><h3 id="top">JoesStocks</h3></a>
+        </div>
+        <div class="right-links">
+            <a href="index.html"><h3 id="right">Home / Search</h3></a>
+            <a href="login.html"><h3 id="right">Login / Sign Up</h3></a>
+        </div>
+    </div>
+    <div class="forms-container">
+    	<div class="login">
+    		<form id="login-form">
+		        <h2 class="log">Login</h2>
+		        <h3 class="log">Username:</h3>
+		        <input type="text" id="login-username" name="username" required>
+		        <h3 class="log">Password:</h3>
+		        <input type="password" id="login-password" name="password" required>
+		        <button type="submit" id="login-submit-button">Submit</button>
+    		</form>
+		</div>
+		<div class="signup">
+    		<form id="registration-form">
+		        <h2 class="log">Sign Up</h2>
+		        <h3 class="log"> Email:</h3>
+		        <input type="email" id="signup-email" name="email" required>
+		        <h3 class="log"> Username:</h3>
+		        <input type="text" id="signup-username" name="username" required>
+		        <h3 class="log"> Password:</h3>
+		        <input type="password" id="signup-password" name="password" required>
+		        <h3 class="log"> Confirm Password:</h3>
+		        <input type="password" id="confirm-password" name="confirm-password" required>
+		        <button type="submit" id="signup-submit-button">Submit</button>
+    		</form>
+		</div>
+	</div>
+</body>
+</html>
